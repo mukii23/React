@@ -1,0 +1,29 @@
+/***
+** Add nodejs and npm in Ubuntu **
+***/
+=> sudo apt install nodejs npm
+
+/***
+** Remove nodejs and npm in Ubuntu **
+***/
+=> sudo apt remove nodejs npm
+
+/***
+** Update nodejs and npm in Ubuntu **
+***/
+=> sudo npm cache clean -f
+=> sudo npm install -g n
+=> sudo n 10.14.2 (eg.)
+
+/************************************
+== STARTING WITH REACTJS IN UBUNTU ==
+***********************************/
+
+1. Initialization for creat9ing the reactjs app 
+sudo npm i -g create-react-app
+
+2. Create new Reactjs app.
+create-react-app reactFirstApp
+
+3. Add bootstrap in react app.
+npm i bootstrap@4.1.1
